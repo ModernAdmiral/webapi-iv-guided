@@ -1,5 +1,5 @@
-const server = require('./api/server.js');
+const server = require("./api/server.js");
 
-server.listen(4000, () => {
-  console.log('\n*** Server Running on http://localhost:4000 ***\n');
+server.listen(4004, () => {
+  console.log("\n*** Server Running on http://localhost:4004 ***\n");
 });
